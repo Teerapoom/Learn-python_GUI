@@ -12,3 +12,5 @@ root.title("โปรเเกรมเเปลงสกุลเงิน")
 money = IntVar()
 Label(text="จำนวนเงิน (THB)",font=30,padx=10).grid(row=0,sticky=W)
 et1 = Entry(font=30,width=30,textvariable=money).grid(row=0,column=1)
+
+choice = StringVar(value="โปรดเลือกสกุลเงิน")
